@@ -1,0 +1,88 @@
+$light-colors: (
+  primary: (
+    primary: map.get($primary, 40),
+    on-primary: map.get($primary, 100),
+    primary-container: map.get($primary, 95),
+    on-primary-container: map.get($primary, 30),
+    primary-fixed: map.get($primary, 90),
+    primary-fixed-dim: map.get($primary, 80),
+    on-primary-fixed: map.get($primary, 15),
+    on-primary-fixed-variant: map.get($primary, 25),
+    inverse-primary: map.get($primary, 80),
+    inverse-on-primary: map.get($primary, 15),
+  ),
+
+  secondary: (
+    secondary: map.get($secondary, 60),
+    on-secondary: map.get($secondary, 100),
+    secondary-container: map.get($secondary, 95),
+    on-secondary-container: map.get($secondary, 20),
+    secondary-fixed: map.get($secondary, 60),
+    secondary-fixed-dim: map.get($secondary, 60),
+    on-secondary-fixed: map.get($secondary, 15),
+    on-secondary-fixed-variant: map.get($secondary, 15),
+    inverse-secondary: map.get($secondary, 80),
+    inverse-on-secondary: map.get($secondary, 15),
+  ),
+
+  tertiary: (
+    tertiary: map.get($tertiary, 40),
+    on-tertiary: map.get($tertiary, 100),
+    tertiary-container: map.get($tertiary, 90),
+    on-tertiary-container: map.get($tertiary, 00),
+    tertiary-fixed: map.get($tertiary, 90),
+    tertiary-fixed-dim: map.get($tertiary, 80),
+    on-tertiary-fixed: map.get($tertiary, 00),
+    on-tertiary-fixed-variant: map.get($tertiary, 30),
+    inverse-tertiary: map.get($tertiary, 80),
+    inverse-on-tertiary: map.get($tertiary, 100),
+  ),
+
+  error: (
+    error: map.get($error, 40),
+    on-error: map.get($error, 100),
+    error-container: map.get($error, 98),
+    on-error-container: map.get($error, 25),
+  ),
+
+  warning: (
+    warning: map.get($warning, 60),
+    on-warning: map.get($warning, 100),
+    warning-container: map.get($warning, 98),
+    on-warning-container: map.get($warning, 50),
+  ),
+
+  success: (
+    success: map.get($success, 40),
+    on-success: map.get($success, 100),
+    success-container: map.get($success, 98),
+    on-success-container: map.get($success, 30),
+  ),
+
+  info: (
+    info: map.get($info, 40),
+    on-info: map.get($info, 100),
+    info-container: map.get($info, 98),
+    on-info-container: map.get($info, 30),
+  ),
+
+  surface: (
+    surface: map.get($neutral, 100),
+    surface-bright: map.get($neutral, 96),
+    surface-dim: map.get($neutral, 90),
+    surface-tint: map.get($neutral-variant, 90),
+    surface-container-lowest: map.get($neutral, 100),
+    surface-container-low: map.get($neutral, 96),
+    surface-container: map.get($neutral, 90),
+    surface-container-high: map.get($neutral, 80),
+    surface-container-highest: map.get($neutral, 70),
+    on-surface: map.get($neutral, 15),
+    on-surface-variant: map.get($neutral-variant, 50),
+    on-surface-variant-low: map.get($neutral-variant, 80),
+    outline: map.get($neutral, 87),
+    outline-variant: map.get($neutral, 80),
+    inverse-surface: map.get($neutral, 12),
+    inverse-on-surface: map.get($neutral, 99),
+    scrim: map.get($neutral, 00),
+  ),
+);
