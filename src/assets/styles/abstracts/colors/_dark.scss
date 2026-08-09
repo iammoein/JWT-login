@@ -1,4 +1,7 @@
-$theme-dark: (
+@use 'sass:map';
+@use './palette' as *;
+
+$dark-colors: (
   primary: (
     primary: map.get($primary, 60),
     on-primary: map.get($neutral, 100),
@@ -38,19 +41,28 @@ $theme-dark: (
     inverse-on-tertiary: map.get($neutral, 100),
   ),
 
-  state: (
+  error: (
     error: map.get($error, 50),
     on-error: map.get($neutral, 100),
     error-container: map.get($error, 5),
     on-error-container: map.get($error, 95),
+  ),
+
+  warning: (
     warning: map.get($warning, 50),
     on-warning: map.get($neutral, 100),
     warning-container: map.get($warning, 5),
     on-warning-container: map.get($warning, 95),
+  ),
+
+  success: (
     success: map.get($success, 50),
     on-success: map.get($neutral, 100),
     success-container: map.get($success, 5),
     on-success-container: map.get($success, 95),
+  ),
+
+  info: (
     info: map.get($info, 50),
     on-info: map.get($neutral, 100),
     info-container: map.get($info, 5),

@@ -1,3 +1,7 @@
+@use 'sass:map';
+@use './palette' as *;
+
+
 $light-colors: (
   primary: (
     primary: map.get($primary, 40),
