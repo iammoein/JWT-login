@@ -1,9 +1,14 @@
-@use "sass:math";
+@use 'sass:math';
+@use 'sass:map';
 
 @function rem($px) {
-  @return math.div($px , 16) * 1rem;
+  @return math.div($px, 16) * 1rem;
 }
 
 @function space($value) {
   @return rem($value * 4);
+}
+
+@function color($category, $key) {
+  @return map.get(map.get($colors, $category), $key);
 }
