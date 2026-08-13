@@ -9,7 +9,7 @@
   flex-wrap: $wrap;
 }
 
-@mixin box($width, $height: $width) {
+@mixin dimension($width, $height: $width) {
   width: $width;
   height: $height;
 }
